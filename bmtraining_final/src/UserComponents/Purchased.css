@@ -1,0 +1,35 @@
+.status{
+    margin-top: 10px;
+    padding: 0% 10%;
+}
+.thumbnail{
+    width: 210px;
+    height: 250px;
+    margin-left: 5rem;
+   
+}
+.descript{
+   font-size: 25px;
+}
+.time{
+    font-size: 16px;
+ }
+.total{
+    color: red;
+    font-weight: bold;
+    margin-left:90% ;
+    font-size: 30px;
+}
+@media screen and (max-width: 414px) {
+    .thumbnail{
+        width: 60px;
+        height: 60px;
+        margin-left: 1rem;
+    }
+    .total{
+        margin-left: 75%;
+    }
+    .descript{
+        font-size: 16px;
+     }
+}

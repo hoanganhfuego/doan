@@ -1,0 +1,89 @@
+.description{
+    position: relative;
+    font-size: larger;
+    padding-left: 10%;
+    padding-right: 10%;
+    white-space: pre-line;
+    text-align: justify;
+}
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    width: 80%;
+}
+.row{
+    position: relative;
+    left:15%;
+    width: 80%;
+    padding: 2%;
+   
+}
+.preline{
+    white-space: pre-line;
+    padding-left: 1.1%;
+}
+textarea.form-control {
+    position: relative;
+    height: auto;
+    width: 90%;
+    left: 10%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    }
+.post-button{
+    color: white;
+    background-color: black;
+    display: inline;
+    clear: both;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    top: 20%;
+}
+.post-button:hover{
+    background-color: white;
+    color: black;
+}
+.time{
+    color: grey;
+    font-size: small;
+    position: relative;
+    padding-right: 1%;
+}
+.sharebtn{
+    padding: 0;
+    border: none;
+    background: none;
+    padding-left: 90%;
+    
+}
+
+@media screen and (max-width: 960px) {
+    textarea.form-control {
+        position: relative;
+        height: auto;
+        width: 100%;
+        left: 10%;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        }
+    
+    .post-button{
+        color: white;
+        background-color: black;
+        display: inline;
+        clear: both;
+        position: relative;
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        top: 25%;
+        left:25%;
+    }
+    
+}
